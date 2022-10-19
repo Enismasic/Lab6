@@ -1,9 +1,12 @@
 #main-navbar{
 	background-color: blue;
-	overflow: hidden;
 	float: left;
 	width: 100%;
 	position: relative;
+}
+
+#navbar-container{
+	overflow: hidden;
 }
 
 #navbar-container ul{
@@ -17,15 +20,19 @@
 }
 
 #navbar-container ul li{
-	display: block;
 	float: left;
+	display: block;
 	position: relative;
-    right: 50%;
-    display: block;
-    padding: 10px 20px;
-    color: #fff;
-    text-decoration: none;
+	right: 50%;
 }
+
+#navbar-container ul li a{
+	padding: 10px 20px;
+    color: #fff;
+	display: block;
+	text-decoration: none;
+}
+
 #navbar-container ul li a:hover {
     background-color: #000;
     text-decoration: underline overline;
