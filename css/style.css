@@ -38,4 +38,17 @@
     height: 100%;
     width: 20%;
 }
+#sidebar-container ul{
+	list-style-type: none;
+	text-align: center;
+}
+#sidebar-container ul li a{
+	display: block;
+	padding: 15px 0;
+	color: #fff;
+	text-decoration: none;
+}
+#sidebar-container ul li a:hover{
+	background-color: #000;
+}
 }
