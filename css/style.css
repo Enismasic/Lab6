@@ -5,3 +5,25 @@
 	width: 100%;
 	position: relative;
 }
+
+#navbar-container ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	left: 50%;
+	float: left;
+	display: block;
+}
+
+#navbar-container ul li{
+	display: block;
+	float: left;
+	position: relative;
+    right: 50%;
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+}
